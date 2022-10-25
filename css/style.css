@@ -5,6 +5,13 @@
   font-family: 'Whitney', sans-serif;
 }
 /* Utils */
+  .text-center{
+    text-align: center;
+  }
+
+  .pb-30{
+    padding-bottom: 30px;
+  }
   .bg-gray{
     background-color: rgb(197, 197, 197);
   }
@@ -31,7 +38,7 @@ footer .row{
 
 /* Header */
 header{
-  background-color: rgb(49,97,224);
+  background-color: rgb(37,94,232);
 }
 
 header .row{
@@ -89,7 +96,7 @@ header .col-sm{
 }
 
 .login-btn:hover{
-  color: rgb(49,97,224);
+  color: rgb(37,94,232);
   box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.30);
 }
 /*<------>*/
@@ -105,12 +112,49 @@ header .col-sm{
   background-size: cover;
 }
 
-.pink-card{
-  border: 1px dashed black;
-  background-color: rgb(255, 121, 246);
+.card{
+  padding: 50px 0;
+  color: white;
   width: 65%;
   height: 80%;
 }
+
+.card-title{
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+main .card input[type="button"]{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+}
+
+.mac-download-btn{
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.mac-download-btn:hover{
+  color: rgb(37,94,232);
+  box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.30);
+}
+
+.browser-btn{
+  color: white;
+  background-color: rgb(35,39,42);
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.browser-btn:hover{
+  color: white;
+  background-color: rgb(60, 66, 71);
+  box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.30);
+}
+
 
 main .col-lg{
   border: 1px dashed black;
