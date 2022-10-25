@@ -1,0 +1,191 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Whitney', sans-serif;
+}
+/* Utils */
+  .bg-gray{
+    background-color: rgb(197, 197, 197);
+  }
+
+  .border-white{
+    border: 0.3px solid white;
+  }
+/*<----->*/
+
+header,
+footer{
+  height: 60px;
+}
+
+main .row,
+footer .row{
+  width: 68%;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+header{
+  background-color: rgb(49,97,224);
+}
+
+header .row{
+  width: 100%;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
+
+header .col-sm:first-child{
+  padding: 5px 0px 0px 0px;
+}
+
+header nav,
+header .col-sm:last-child{
+  padding: 6px;
+}
+
+header nav a{
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover{
+  text-decoration: underline;
+}
+
+
+header nav{
+  column-gap: 20px;
+  width: calc(100%/3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .col-sm{
+  text-align: center;
+  width: calc(100%/3);
+}
+
+.login-btn{
+  text-align: center;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+}
+
+.login-btn:hover{
+  color: rgb(49,97,224);
+  box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.30);
+}
+/*<------>*/
+
+/* Main */
+.container{
+  height: 360px;
+}
+
+.bg-jumbo-img{
+  background-image: url('/img/jumbo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pink-card{
+  border: 1px dashed black;
+  background-color: rgb(255, 121, 246);
+  width: 65%;
+  height: 80%;
+}
+
+main .col-lg{
+  border: 1px dashed black;
+  height: 80%;
+  width: 60%;
+  background-color: rgb(0, 115, 255);
+}
+
+main .col-sm{
+  border: 1px dashed black;
+  height: 80%;
+  width: 40%;
+  background-color: pink;
+}
+
+.container-lg{
+  height: 550px;
+}
+
+.green-card{
+  border: 1px dashed black;
+  width: 100%;
+  height: 90%;
+  background-color: green;
+}
+
+/* main footer*/
+.main-footer{
+  background-color: rgb(37, 37, 37);
+}
+
+.main-footer .row{
+  padding-bottom: 20px;
+}
+
+.main-footer .col-lg{
+  border: 1px dashed black;
+  height: 95%;
+  width: 35%;
+  background-color:rgb(237, 45, 77);
+}
+
+.main-footer .col-sm{
+  border: 1px dashed white;
+  height: 95%;
+  width: 16.25%;
+  background-color: lightseagreen;
+}
+/*<---------->*/
+/*<------>*/
+
+/* Footer */
+
+footer{
+  background-color: rgb(37, 37, 37);;
+}
+
+footer .row{
+  align-items: flex-end;
+}
+
+footer nav{
+  width: 100%;
+  height: 70%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(91, 255, 225);
+}
+
+.label{
+  border: 1px dashed black;
+  padding: 2px 8px;
+  font-size: 14px;
+  background-color: rgb(255, 182, 217);
+}
+/*<------>*/
