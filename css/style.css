@@ -205,7 +205,17 @@ main .col-sm{
   font-size: 15px;
 }
 
-.bg-wave{
+.wave{
+  height: 50px;
+  background-image: url('../img/wave.svg');
+  opacity: 0.08;
+}
+
+.upside-down{
+  transform: rotatex(0.5turn);
+}
+
+.bg-grey{
   background-color: rgb(234, 234, 234);
 }
 
