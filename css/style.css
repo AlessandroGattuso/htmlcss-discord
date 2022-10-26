@@ -45,6 +45,14 @@
   .border-white{
     border: 0.3px solid rgb(87,101,242);
   }
+  
+  input[type="button"]{
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
 /*<----->*/
 
 main .row,
@@ -145,7 +153,7 @@ header input[type="button"]{
 
 .card{
   color: white;
-  width: 65%;
+  width: 50%;
 }
 
 .card-title{
@@ -182,14 +190,6 @@ header input[type="button"]{
 /* Main */
 .container{
   padding: 100px 0;
-}
-
-main input[type="button"]{
-  font-size: 15px;
-  text-align: center;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
 }
 
 .col-lg{
@@ -252,7 +252,8 @@ main .col-sm{
 
 .social{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  column-gap: 30px;
 }
 
 .container-black a{
