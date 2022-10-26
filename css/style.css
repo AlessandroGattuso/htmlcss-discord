@@ -6,6 +6,17 @@
 }
 /* Utils */
 
+  .width-60{
+    width: 60%;
+  }
+
+  .align-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .text-center{
     text-align: center;
   }
