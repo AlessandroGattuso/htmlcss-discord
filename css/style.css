@@ -59,17 +59,27 @@ footer .row{
 
 /* Header */
 header{
-  height: 60px;
+  height: 400px;
   background-color: rgb(37,94,232);
 }
 
+.bg-jumbo-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('../img/jumbo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header .row{
-  width: 100%;
-  margin: 0 auto;
-  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header .row:last-child{
+  height: inherit;
 }
 
 .logo{
@@ -115,6 +125,7 @@ header .col-sm{
   border: none;
   border-radius: 20px;
   width: 60px;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -122,17 +133,14 @@ header .col-sm{
   color: rgb(37,94,232);
   box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.30);
 }
-/*<------>*/
 
-/* Main */
-.container{
-  padding: 100px 0;
-}
 
-.bg-jumbo-img{
-  background-image: url('../img/jumbo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+header input[type="button"]{
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .card{
@@ -143,14 +151,6 @@ header .col-sm{
 .card-title{
   font-size: 40px;
   margin-bottom: 40px;
-}
-
-main input[type="button"]{
-  font-size: 15px;
-  text-align: center;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
 }
 
 .mac-download-btn{
@@ -177,13 +177,27 @@ main input[type="button"]{
   box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.30);
 }
 
+/*<------>*/
+
+/* Main */
+.container{
+  padding: 100px 0;
+}
+
+main input[type="button"]{
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
 .col-lg{
   width: 60%;
 }
 
 .col-lg img{
-  width: 100%;
+  width: 480px;
 }
 
 main .col-sm{
@@ -248,6 +262,10 @@ main .col-sm{
 
 .container-black a:hover{
   text-decoration: underline;
+}
+
+.language{
+  cursor: pointer;
 }
 
 .language img{
