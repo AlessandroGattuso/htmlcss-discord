@@ -57,9 +57,6 @@
 
 main .row,
 footer .row{
-  width: 68%;
-  margin: 0 auto;
-  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +190,7 @@ header input[type="button"]{
 }
 
 .col-lg{
-  width: 60%;
+  width: 40%;
 }
 
 .col-lg img{
@@ -239,11 +236,11 @@ main .col-sm{
 }
 
 .container-black .col-lg{
-  width: 35%;
+  width: 20%;
 }
 
 .container-black .col-sm{
-  width: 16.25%;
+  width: 15%;
 }
 
 .mini-container{
@@ -288,16 +285,18 @@ main .col-sm{
 footer{
   height: 100px;
   background-color: rgb(37, 37, 37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer .row{
-  display: flex;
-  align-items: center;
+  width: 100%;
 }
 
 footer nav{
-  width: 100%;
-  height: 70%;
+  width: 80%;
+  height: 90%;
   padding: 10px 0px 0px;
   display: flex;
   justify-content: space-between;
